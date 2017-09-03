@@ -1,0 +1,6 @@
+framework module Daumenkino {
+  umbrella header "Daumenkino-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Daumenkino_Example' do
+  pod 'Daumenkino', :path => '../'
+
+  target 'Daumenkino_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
